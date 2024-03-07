@@ -6,17 +6,23 @@
     <title>Welcome to kakao talk</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column"></div>
-      <span>No service</span>
-      <i class="fa-solid fa-wifi"></i>
-      <div class="status-bar__column"></div>
-      <span>18:43</span>
-      <div class="status-bar__column"></div>
-      <span>110%</span>
-      <i class="fa-solid fa-battery-full"></i>
-      <i class="fa-solid fa-bolt"></i>
-    </div>
+    <div class="status-bar"></div>
+
+    <header class="Welcome-header">
+      <h1 class="Welcome-header__title">Welcome to kokoa clone</h1>
+      <p class="Welcome-header__text">
+        If you have a kokoa Account, log in with your email or phone number
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find kokoa Account or Password</a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/ee146e045f.js"
       crossorigin="anonymous"
